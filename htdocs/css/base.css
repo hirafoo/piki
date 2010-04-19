@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/* ========BASIC======== */
+* {
+   font-family:Verdana, Helvetica, sans-serif;
+   color:#333;
+}
+
+body {
+   margin:0;
+   padding:0;
+   letter-spacing:1px;
+   background:#fff url(/images/bg_body.gif) 0 0 repeat-x;
+}
+
+br {
+   letter-spacing:normal;
+}
+
+a {
+   color:#333;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#DDAAAA;
+   text-decoration:none;
+}
+
+img {
+   border:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   margin:0;
+}
+
+/* ========TEMPLATE LAYOUT======== */
+div#top {
+   width:760px;
+   margin:0 auto;
+}
+
+div#header {
+   width:760px;
+   height:300px;
+   margin-bottom:5px;
+   background:url(/images/bg_head.gif) 0 0 no-repeat;
+}
+
+div#contents {
+   clear:both;
+   width:760px;
+   margin:20px 0;
+   background:#fff url(/images/bg_contents.gif) 0 0 repeat-y;
+}
+
+div#main {
+   float:left;
+   width:560px;
+}
+
+div#sub {
+   float:right;
+   width:180px;
+}
+
+div#totop {
+   border-top:1px solid #5D5353;
+}
+
+div#footer {
+   position:relative;
+   clear:both;
+   width:757px;
+}
+
+/* 回り込み解除 らしい*/
+div#contents:after {
+   content:"";
+   display:block;
+   height:0;
+   clear:both;
+   visibility:hidden;
+}
+
+/* ========HEADER CUSTOMIZE======== */
+div#header h1 {
+   margin:0;
+   padding:0;
+   font-size:2em;
+   color:#000;
+   line-height:60px;
+}
+
+div#header h1 a {
+   color:#000;
+}
+
+div#header h1 a:hover {
+   color:#5D5353;
+}
+
+div#header p {
+   width:500px;
+   margin:0;
+   font-size:0.75em;
+}
+
+/* ========MAIN CONTENTS CUSTOMIZE======== */
+div#main a {
+   color:#DDAAAA;
+}
+
+div#main a:hover {
+   color:#DDAAAA;
+   border:0;
+   border-bottom:1px solid #DDAAAA;
+}
+
+div#main h2 {
+   margin-bottom:8px;
+   padding:2px 2px 2px 0;
+   color:#5D5353;
+   font-size:0.94em;
+   font-weight:bold;
+   line-height:1.4;
+   border-bottom:3px double #5D5353;
+}
+
+div#main h3 {
+   margin-bottom:3px;
+   /*font-size:0.88em;*/
+}
+
+div#main h4 {
+   margin-bottom:2px;
+   /*font-size:0.75em;*/
+   line-height:1.4;
+}
+div#main h5 {
+   margin-bottom:2px;
+   /*font-size:0.75em;*/
+   line-height:1.4;
+}
+div#main h6 {
+   margin-bottom:2px;
+   font-size:0.75em;
+   line-height:1.4;
+}
+
+div#main p{
+   margin:0 0 1em 0;
+   font-size:0.75em;
+   line-height:1.4;
+}
+
+div#main ul,ol,dl{
+   font-size:0.75em;
+}
+
+div#main dt{
+
+}
+
+div#main li{
+
+}
+
+div#main dt{
+   margin-bottom:3px;
+}
+
+div#main dd{
+   padding:0;
+   margin:0 0 1em 1em;
+   padding:3px;
+   background:#f1f1f1;
+}
+
+/* ========sub CONTENTS CUSTOMIZE======== */
+div#sub .section {
+
+}
+
+div#sub h2 {
+   padding:3px;
+   font-size:0.88em;
+   font-weight:bold;
+   color:#fff;
+   background:#5D5353;
+}
+
+div#sub ul {
+   margin:0;
+   padding:5px 0 1em 0;
+}
+
+div#sub li {
+   margin:0;
+   padding-left:18px;
+   font-size:0.75em;
+   line-height:1.8;
+   background:#fff url(/images/bg_list.gif) 0 4px no-repeat;
+   list-style:none;
+}
+
+/* ========FOOTER CUSTOMIZE======== */
+div#totop{
+   position:relative;
+   height:2em;
+}
+
+div#totop p{
+   position:absolute;
+   top:10px;
+   right:7px;
+   margin:0;
+   padding-left:8px;
+   font-size:0.63em;
+   background:#fff url(/images/bg_totop.gif) 0 50% no-repeat;
+}
+
+address{
+   padding:10px 0;
+   font-size:0.63em;
+   color:#333;
+}

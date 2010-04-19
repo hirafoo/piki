@@ -1,0 +1,7 @@
+dsn: 
+  adaptor: mysql
+  dsn: dbi:mysql:piki_development
+  database: piki_development
+  username: root
+  password: ~
+  host: 127.0.0.1

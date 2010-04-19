@@ -1,0 +1,8 @@
+- 動かすには
+
+% cd rails/piki
+% rake db:migrate:reset
+% cd ../..
+% plackup script/server.psgi -E nolog -R lib,config -s Starman -p 3000
+
+あとは http://localhost:3000/ にアクセス。
